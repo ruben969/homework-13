@@ -1,4 +1,4 @@
-.app-doto{
+.app-todo{
   background-color: #f1eded;
   position: absolute;
   justify-content: center;
@@ -50,16 +50,21 @@
     margin: 10px;
 }
 
-.new-task{
-  display: inline-block;
-  float: right;
-  width: 80px;
-  height: 20px;
-  border-radius: 4px;
-  text-align: center;
-  margin-right: 15px;
-  margin-top: -5px;
-  color: #ffffff;
-  font-size: 18px;
+.new-task {
+     width: 80px;
+     height: 20px;
+     border-radius: 4px;
+     text-align: center;
+     margin-right: 15px;
+     margin-top: -5px;
+     color: white;
+     font-size: 18px;
+     background-color: #d9534f;
+     position: absolute;
+     margin-left: 360px;
+    }
 
+.edit-pic{
+    width: 20px;
+    height: 20px;
 }
