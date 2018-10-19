@@ -3,6 +3,7 @@
   position: absolute;
   justify-content: center;
 }
+
 .app-name {
     margin: 18px;
     font-size: 24px;
@@ -10,6 +11,9 @@
     padding-top: 10px;
 }
 
+.tasks:hover{
+    background-color: #9ccc65;
+}
 .create-task {
     width: 460px;
     height: 70px;
